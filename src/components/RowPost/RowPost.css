@@ -20,5 +20,21 @@
 .poster{
     max-height: 250px;
     margin-right: 10px;
+    transition: .4s;
+    border-radius: 5px;
+   
 
+}
+.small-poster{
+    border-radius: 5px;
+    max-height: 150px;
+    margin-right: 10px;
+    transition: .2s;
+    
+}
+
+.poster:hover,.small-poster:hover{
+    transform: scale(1.1);
+    transition: .4s;
+    border-radius: 5px;
 }
