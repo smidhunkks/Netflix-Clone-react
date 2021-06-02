@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './RowPost.css'
 import { API_KEY, Img_URL } from '../../constants/constants'
 import axios from '../../axios'
-import youtube from 'react-youtube'
+
 import YouTube from 'react-youtube'
 
 
@@ -40,10 +40,7 @@ function RowPost(props) {
         })
 
     }
-    const _onReady = (event) => {
-        // access to player in all event handlers via event.target
-        event.target.pauseVideo();
-    }
+    
     return (
         <div className='row'>
             <h2>{props.title}</h2>

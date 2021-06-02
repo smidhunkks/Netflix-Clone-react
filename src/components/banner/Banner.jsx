@@ -19,7 +19,7 @@ function Banner() {
             <div className='content'>
                 <h1 className='title'>{state?state.title?state.title:state.original_name:""}</h1>
                 <div className='banner-buttons'>
-                    <button className='button'>play</button>
+                    <button className='button'>Play</button>
                     <button className='button'>My List</button>
                 </div>
                 <h1 className='description'>{state?state.overview:""}</h1>
